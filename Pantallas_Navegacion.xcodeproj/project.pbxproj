@@ -12,8 +12,11 @@
 		3DEB23C428DB58BF00BB5CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB23C228DB58BF00BB5CCC /* Main.storyboard */; };
 		3DEB23C628DB58C700BB5CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB23C528DB58C700BB5CCC /* Assets.xcassets */; };
 		3DEB23C928DB58C700BB5CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB23C728DB58C700BB5CCC /* LaunchScreen.storyboard */; };
-		3DEB23D428DB58C700BB5CCC /* Pantallas_NavegacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23D328DB58C700BB5CCC /* Pantallas_NavegacionTests.swift */; };
 		3DEB23DF28DB58C700BB5CCC /* Pantallas_NavegacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23DE28DB58C700BB5CCC /* Pantallas_NavegacionUITests.swift */; };
+		3DEB23ED28DB5A4900BB5CCC /* PantallaAmarillaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23EC28DB5A4900BB5CCC /* PantallaAmarillaController.swift */; };
+		3DEB23EE28DB5AA800BB5CCC /* Pantallas_NavegacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23D328DB58C700BB5CCC /* Pantallas_NavegacionTests.swift */; };
+		3DEB23F428DB60FA00BB5CCC /* DeepBlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23F328DB60FA00BB5CCC /* DeepBlueViewController.swift */; };
+		3DEB23F628DB612400BB5CCC /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB23F528DB612400BB5CCC /* PinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3DEB23DA28DB58C700BB5CCC /* Pantallas_NavegacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pantallas_NavegacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEB23DE28DB58C700BB5CCC /* Pantallas_NavegacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantallas_NavegacionUITests.swift; sourceTree = "<group>"; };
 		3DEB23E028DB58C700BB5CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEB23EC28DB5A4900BB5CCC /* PantallaAmarillaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaAmarillaController.swift; sourceTree = "<group>"; };
+		3DEB23F328DB60FA00BB5CCC /* DeepBlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBlueViewController.swift; sourceTree = "<group>"; };
+		3DEB23F528DB612400BB5CCC /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				3DEB23BE28DB58BF00BB5CCC /* AppDelegate.swift */,
 				3DEB23C028DB58BF00BB5CCC /* ViewController.swift */,
+				3DEB23EC28DB5A4900BB5CCC /* PantallaAmarillaController.swift */,
 				3DEB23C228DB58BF00BB5CCC /* Main.storyboard */,
+				3DEB23F328DB60FA00BB5CCC /* DeepBlueViewController.swift */,
+				3DEB23F528DB612400BB5CCC /* PinkViewController.swift */,
 				3DEB23C528DB58C700BB5CCC /* Assets.xcassets */,
 				3DEB23C728DB58C700BB5CCC /* LaunchScreen.storyboard */,
 				3DEB23CA28DB58C700BB5CCC /* Info.plist */,
@@ -256,8 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEB23F628DB612400BB5CCC /* PinkViewController.swift in Sources */,
 				3DEB23C128DB58BF00BB5CCC /* ViewController.swift in Sources */,
 				3DEB23BF28DB58BF00BB5CCC /* AppDelegate.swift in Sources */,
+				3DEB23F428DB60FA00BB5CCC /* DeepBlueViewController.swift in Sources */,
+				3DEB23ED28DB5A4900BB5CCC /* PantallaAmarillaController.swift in Sources */,
+				3DEB23EE28DB5AA800BB5CCC /* Pantallas_NavegacionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DEB23D428DB58C700BB5CCC /* Pantallas_NavegacionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
